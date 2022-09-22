@@ -11,6 +11,7 @@
   }
 .category{
     padding: 3rem 9%;
+    margin-top: 50px;
 }
 .category .box-container {
     display: -ms-grid;
@@ -43,8 +44,8 @@
   } */
   
   .category .box-container .box img {
-    width:20rem;
-    height: 20rem;
+    width:12rem;
+    height: 12rem;
     margin-bottom: .5rem;
   }
   
