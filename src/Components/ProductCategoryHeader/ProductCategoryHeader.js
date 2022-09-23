@@ -3,40 +3,9 @@ import './ProductCategoryHeader.css'
 import ProductBodyApp from '../ProductBodyApp/ProductBodyApp'
 import ProductBodyWeb from '../ProductBodyWeb/ProductBodyWeb'
 
-function ProductCategoryHeader() {
-    const webobj=[{
-        projectid:'pr01',
-        projectname:"Disaster Notifications",
-        projecttype:"Mini Project",
-        frontend:"Html,Css,Javascript",
-        backend:"Python",
-        database:"Mysql",
-        submittedcolleges:['Mohandas College'],
-        abstract:""
-
-    },
-   {
-    projectid:'pr02',
-    projectname:"Canteen Management",
-    projecttype:"Main Project",
-    frontend:"Html,css,Javascript",
-    backend:"Nodejs",
-    database:"Mongodb",
-    submittedcolleges:['Mohandas College'],
-    abstract:""
-    },
-    {
-        projectid:'pr03',
-        projectname:"Smart Class",
-        projecttype:"Main Project",
-        frontend:"Html,css,Javascript",
-        backend:"Python",
-        database:"Mysql",
-        submittedcolleges:['Christ Nagar College'],
-        abstract:""
-        
-    }
-]
+function ProductCategoryHeader(props) {
+    console.log(props.onaction)
+  
     const [state,setstate] = useState(0)
   return (
     
@@ -86,7 +55,7 @@ function ProductCategoryHeader() {
 
 </div>
         
-         {state <= 1 && <ProductBodyWeb data={webobj}  />}
+         {state <= 1 && <ProductBodyWeb data={props.data} onaction={props.onaction} />}
          {state === 2 && <ProductBodyApp/>}
      
 

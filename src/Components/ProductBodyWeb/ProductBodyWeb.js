@@ -9,7 +9,7 @@ function ProductBodyWeb(props) {
          <div className="box-container">
             {
                 props.data.map(obj=>{
-                    return  <div className="box" key={obj.projectid}>
+                    return  <div className="box" onClick={()=>props.onaction(obj.projectid)} key={obj.projectid}>
                     <div className="content">
                            <FontAwesomeIcon icon={faLaptopCode} className="highlight" />
                            <h3>{obj.projectname}</h3>
