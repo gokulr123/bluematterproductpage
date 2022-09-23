@@ -11,6 +11,7 @@ function Productpage(props) {
            return id===item.projectid
     })
    setstate(newlist)
+   console.log("hi")
    setsecond(1)
   }
   return (

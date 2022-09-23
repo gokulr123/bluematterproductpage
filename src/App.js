@@ -45,7 +45,6 @@ abstract:""
   return (
     <div>
      <Productpage data={webobj} />
-     
     </div>
   );
 }

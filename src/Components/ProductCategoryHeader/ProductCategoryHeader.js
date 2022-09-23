@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import web from '../../Images/web.png'
+import ap from '../../Images/app.png'
 import './ProductCategoryHeader.css'
 import ProductBodyApp from '../ProductBodyApp/ProductBodyApp'
 import ProductBodyWeb from '../ProductBodyWeb/ProductBodyWeb'
+
 
 function ProductCategoryHeader(props) {
     console.log(props.onaction)
@@ -17,12 +20,12 @@ function ProductCategoryHeader(props) {
     <div className="box-container">
 
         <div className={`box ${state === 1 ? 'selected' : ''}`}  onClick={()=>setstate(1)}>
-            <img src="../../../web.png" alt=""/>
+            <img src={web} alt=""/>
             <h1><b>Web Development Projects</b> </h1>
         </div>
 
         <div className={`box ${state === 2 ? 'selected' : ''}`} onClick={()=>setstate(2)}>
-            <img src="../../../app.png" alt=""/>
+            <img src={ap} alt=""/>
             <h1><b>App Development Projects</b></h1>
         </div>
 
