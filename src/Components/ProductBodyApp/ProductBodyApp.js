@@ -10,6 +10,7 @@ function ProductBodyApp() {
          <div className="box-container">
             <div className="box">
          <div className="content">
+            
                 <FontAwesomeIcon icon={icon} className="highlight" />
                 <h3>Web Development</h3>
                 <div className="price">$249.99 <span>$399.99</span></div>

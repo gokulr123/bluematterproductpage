@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
 import web from '../../Images/web.png'
-import ap from '../../Images/app.png'
+import ap from '../../Images/app3.png'
 import './ProductCategoryHeader.css'
 import ProductBodyApp from '../ProductBodyApp/ProductBodyApp'
 import ProductBodyWeb from '../ProductBodyWeb/ProductBodyWeb'
 
 
 function ProductCategoryHeader(props) {
-    console.log(props.onaction)
   
-    const [state,setstate] = useState(0)
+    const [state,setstate] = useState(1)
   return (
     
     <div>
@@ -21,13 +20,15 @@ function ProductCategoryHeader(props) {
 
         <div className={`box ${state === 1 ? 'selected' : ''}`}  onClick={()=>setstate(1)}>
             <img src={web} alt=""/>
-            <h1><b>Web Development Projects</b> </h1>
+           <div><h1><b>Web Development Projects</b> </h1></div> 
         </div>
 
         <div className={`box ${state === 2 ? 'selected' : ''}`} onClick={()=>setstate(2)}>
             <img src={ap} alt=""/>
-            <h1><b>App Development Projects</b></h1>
+            <div><h1><b>App Development Projects</b></h1></div>
         </div>
+
+       
 
         {/* <a href="" className="box">
             <img src="images/cat_img3.png" alt=""/>

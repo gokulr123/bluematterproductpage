@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ProductCategoryHeader from '../Components/ProductCategoryHeader/ProductCategoryHeader'
 import Header from '../Components/Header/Header'
+import Footer from '../footer/Footer'
 import ProductDetailsDisplay from '../Components/ProductDetailsDisplay/ProductDetailsDisplay'
 
 function Productpage(props) {
@@ -18,7 +19,7 @@ function Productpage(props) {
     <div>
         <Header/>
         {first===0 ? <ProductCategoryHeader data={props.data} onaction={handleclick}/>: <ProductDetailsDisplay data={state} />}
-       
+        <Footer/>
        
     </div>
   )

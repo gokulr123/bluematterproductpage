@@ -1,11 +1,13 @@
 
 import './App.css';
+import { faLaptopCode,faBell,faStoreAlt, } from '@fortawesome/free-solid-svg-icons';
 import Productpage from './Pages/Productpage';
 function App() {
   const webobj=[{
     projectid:'pr01',
     projectname:"Disaster Notifications",
     projecttype:"Mini Project",
+    icon:faBell,
     frontend:"Html,Css,Javascript",
     backend:"Python",
     database:"Mysql",
@@ -22,6 +24,7 @@ function App() {
 {
 projectid:'pr02',
 projectname:"Canteen Management",
+icon:faStoreAlt,
 projecttype:"Main Project",
 frontend:"Html,css,Javascript",
 backend:"Nodejs",
@@ -32,6 +35,7 @@ abstract:""
 {
     projectid:'pr03',
     projectname:"Smart Class",
+    icon:faLaptopCode,
     projecttype:"Main Project",
     frontend:"Html,css,Javascript",
     backend:"Python",

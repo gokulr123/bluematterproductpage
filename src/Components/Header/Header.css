@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 16px 9%;
+    padding: 13px 9%;
 
 }
 .logo{
@@ -66,6 +66,9 @@ header{
    
     .logoplustoggle{
         margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     .toggle{
        display: none;
@@ -76,6 +79,8 @@ header{
     
     header{
         flex-direction: column;
+        padding: 13px 5%;
+
     }
     .nav_links{
         display: flex;

@@ -19,21 +19,21 @@ function ProductDetailsDisplay(props) {
       <div className = "product-imgs"> 
         <div className = "img-display">
           <div className = "img-showcase" >
-            <img src ={require('../../Images/s1.png')}  alt = "shoe image"/>
-            <img src = {require('../../Images/disaster2.png')} alt = "shoe image"/>
-            <img src ={require('../../Images/disaster3.png')} alt = "shoe image"/>
-            <img src = {require('../../Images/s2.png')}alt = "shoe image"/>
+            <img src ={require('../../Images/s1.png')}  alt = ""/>
+            <img src = {require('../../Images/disaster2.png')} alt = ""/>
+            <img src ={require('../../Images/disaster3.png')} alt = ""/>
+            <img src = {require('../../Images/s2.png')}alt = ""/>
           </div>
         </div>
         <div className = "img-select" >
           <div className = "img-item" onClick={()=>slideImage(1)}>
-              <img src = {require('../../Images/s1.png')} alt = "shoe image"/>
+              <img src = {require('../../Images/s1.png')} alt = ""/>
           </div>
           <div className = "img-item" onClick={()=>slideImage(2)}>
-              <img src = {require('../../Images/disaster2.png')} alt = "shoe image"/>
+              <img src = {require('../../Images/disaster2.png')} alt = ""/>
           </div>
           <div className = "img-item" onClick={()=>slideImage(3)} >
-              <img src ={require('../../Images/disaster3.png')} alt = "shoe image"/>
+              <img src ={require('../../Images/disaster3.png')} alt = ""/>
           </div>
           <div className = "img-item" onClick={()=>slideImage(4)}>
               <img src = {require('../../Images/s2.png')}/>
