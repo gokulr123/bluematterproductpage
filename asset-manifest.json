@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bluematterproductpage/static/css/main.c1afa81b.css",
+    "main.js": "/bluematterproductpage/static/js/main.c4b3a89f.js",
+    "static/js/787.b71b47ef.chunk.js": "/bluematterproductpage/static/js/787.b71b47ef.chunk.js",
+    "static/media/s2.png": "/bluematterproductpage/static/media/s2.aba89ab5624d5073aac6.png",
+    "static/media/s1.png": "/bluematterproductpage/static/media/s1.7a51c78ad3491fd29a95.png",
+    "static/media/disaster2.png": "/bluematterproductpage/static/media/disaster2.2812ad1d661fcbd4621f.png",
+    "static/media/disaster3.png": "/bluematterproductpage/static/media/disaster3.6f3f28c68973008ffd07.png",
+    "static/media/app.png": "/bluematterproductpage/static/media/app.c8d18b0b7cc8aae63546.png",
+    "static/media/web.png": "/bluematterproductpage/static/media/web.0a77b94373403bd67acd.png",
+    "static/media/checked.png": "/bluematterproductpage/static/media/checked.f83ed6f05811c4d3e32a.png",
+    "index.html": "/bluematterproductpage/index.html",
+    "main.c1afa81b.css.map": "/bluematterproductpage/static/css/main.c1afa81b.css.map",
+    "main.c4b3a89f.js.map": "/bluematterproductpage/static/js/main.c4b3a89f.js.map",
+    "787.b71b47ef.chunk.js.map": "/bluematterproductpage/static/js/787.b71b47ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1afa81b.css",
+    "static/js/main.c4b3a89f.js"
+  ]
+}
